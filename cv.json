@@ -325,6 +325,100 @@
     ],
     "correct_answer": "A. YOLO (You Only Look Once)",
     "explanation": "YOLO divides the input image into an $S \times S$ grid. If an object's center falls within a grid cell, that specific cell is responsible for predicting its bounding box coordinates and class probabilities."
+  },
+  {
+    "question_number": 1,
+    "question": "If learning in situation 'A' may favourably influence learning in situation 'B', then we have:",
+    "options": [
+      "Positive Transfer",
+      "Negative Transfer",
+      "Zero Transfer",
+      "Bilateral Transfer"
+    ],
+    "correct_answer": "Positive Transfer",
+    "explanation": "Positive transfer occurs when prior learning, skills, or operational strategies facilitate, accelerate, or enhance the acquisition of performance in a completely new environment or task."
+  },
+  {
+    "question_number": 2,
+    "question": "Negative Transfer of Training is otherwise known as:",
+    "options": [
+      "Neutral Transfer",
+      "Habit interference",
+      "Zero Transfer",
+      "Bilateral Transfer"
+    ],
+    "correct_answer": "Habit interference",
+    "explanation": "Negative transfer is also termed habit interference because old habits, behavioral patterns, or physical mechanics conflict with or disrupt the execution of the new rules or movements required by a new task."
+  },
+  {
+    "question_number": 3,
+    "question": "Positive transfer of training is possible with:",
+    "options": [
+      "Dissimilar tasks.",
+      "Motor tasks.",
+      "Similar tasks.",
+      "Verbal tasks."
+    ],
+    "correct_answer": "Similar tasks.",
+    "explanation": "Per Thorndike's Identical Elements Theory, positive transfer depends directly on the degree of similarity or overlapping elements (such as shared stimuli, processing rules, or movements) shared between the old and new tasks."
+  },
+  {
+    "question_number": 4,
+    "question": "Both positive and negative transfers are largely the result of:",
+    "options": [
+      "Similarity of responses in the first and the second task.",
+      "Dissimilarity of responses in the first and the second task.",
+      "Co-ordination of responses in the first and the second task.",
+      "Both similarity and dissimilarity of responses in the first and the second task."
+    ],
+    "correct_answer": "Both similarity and dissimilarity of responses in the first and the second task.",
+    "explanation": "The relationship between tasks dictates the transfer dynamic: similarity between underlying stimuli paired with similar required actions yields positive transfer, whereas similar stimuli paired with completely conflicting actions triggers negative transfer (interference)."
+  },
+  {
+    "question_number": 5,
+    "question": "The greater the similarity between the stimuli of the first task and the second task:",
+    "options": [
+      "The less the extent of transfer.",
+      "The greater the extent of transfer.",
+      "The minimum the extent of transfer.",
+      "No transfer occurs."
+    ],
+    "correct_answer": "The greater the extent of transfer.",
+    "explanation": "As psychological or structural similarity increases between baseline stimulus environments, the learner's cognitive or motor frameworks transfer more robustly, increasing the total scale and rate of the learning transfer."
+  },
+  {
+    "question_number": 6,
+    "question": "“If you do not like milk, you may not like all milk products like cheese, butter, ghee, and curd”. This is due to:",
+    "options": [
+      "Generalization Gradient.",
+      "Avoidance Learning.",
+      "Biological Constraints.",
+      "Transfer of Training."
+    ],
+    "correct_answer": "Transfer of Training.",
+    "explanation": "This behavior demonstrates a conceptual transfer of training or stimulus generalization, where an aversion, evaluation, or mental state formed regarding a primary source element is structurally applied across related derivatives."
+  },
+  {
+    "question_number": 7,
+    "question": "A student who is taught the basic organizational components of a narrative story uses exactly those components later in writing an organized and elaborated story, what type of transfer of learning is this:",
+    "options": [
+      "specific learning.",
+      "general learning."
+    ],
+    "correct_answer": "specific learning.",
+    "explanation": "Specific transfer happens when explicit, concrete structural elements, rules, or procedural outlines directly map from the learning experience to execute an identical structural requirement on a subsequent target output."
+  },
+  {
+    "question_number": 8,
+    "question": "Learning to make new responses to identical or similar stimuli results in a:",
+    "options": [
+      "Negative Transfer.",
+      "Positive Transfer.",
+      "Zero transfer.",
+      "Neutral transfer."
+    ],
+    "correct_answer": "Negative Transfer.",
+    "explanation": "When an individual encounters an environment that looks identical to a familiar task but now demands a completely contradictory response or motor action, their established reflexes create friction, causing a negative transfer (habit interference)."
   }
 
 
