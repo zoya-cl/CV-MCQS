@@ -1,0 +1,332 @@
+
+[
+  {
+    "question": "What is the primary function of convolutional layers in a CNN?",
+    "options": {
+      "A": "To reduce the size of the image",
+      "B": "To detect features like edges and textures",
+      "C": "To classify images",
+      "D": "To add non-linearity"
+    },
+    "correct_answer": "B",
+    "explanation": "The primary function of convolutional layers in a CNN is to automatically learn and detect important features like edges, textures, and patterns from input images."
+  },
+  {
+    "question": "What is the main purpose of pooling in a Convolutional Neural Network?",
+    "options": {
+      "A": "To increase the number of trainable parameters",
+      "B": "To reduce dimensionality while keeping important features",
+      "C": "To convert images into grayscale",
+      "D": "To normalize pixel values"
+    },
+    "correct_answer": "B",
+    "explanation": "Pooling, especially MaxPooling, reduces feature map size, retaining the most important information and improving computational efficiency."
+  },
+  {
+    "question": "Why is flattening applied after convolution and pooling layers?",
+    "options": {
+      "A": "To improve the resolution of feature maps",
+      "B": "To convert feature maps into a 1D vector for dense layers",
+      "C": "To perform feature scaling",
+      "D": "To remove noise from the image"
+    },
+    "correct_answer": "B",
+    "explanation": "Flattening transforms multi-dimensional feature maps into a one-dimensional vector, allowing dense layers to process them for final classification."
+  },
+  {
+    "question": "Why do CNNs require fewer trainable parameters than traditional neural networks for images?",
+    "options": {
+      "A": "They ignore most pixels during training",
+      "B": "They use shared weights through convolution filters",
+      "C": "They store each pixel in multiple neurons",
+      "D": "They skip activation functions in convolution layers"
+    },
+    "correct_answer": "B",
+    "explanation": "CNNs use shared filters (kernels) that slide across the image, reducing the number of weights compared to fully connected layers that treat every pixel independently."
+  },
+  {
+    "question": "Which pooling method is commonly used in CNNs to reduce the size of feature maps?",
+    "options": {
+      "A": "Min pooling",
+      "B": "Max pooling",
+      "C": "Average pooling",
+      "D": "Mean pooling"
+    },
+    "correct_answer": "B",
+    "explanation": "Max pooling is commonly used in CNNs to reduce the size of feature maps by selecting the maximum value from a set of values in a defined region, helping to reduce computational load and control overfitting."
+  },
+  {
+    "question": "What is the role of activation functions in CNNs?",
+    "options": {
+      "A": "To normalize data",
+      "B": "To introduce non-linearity",
+      "C": "To reduce computational complexity",
+      "D": "To generate labels"
+    },
+    "correct_answer": "B",
+    "explanation": "Activation functions in CNNs introduce non-linearity allowing the network to learn complex patterns and relationships in data. Without them, the model would behave like a simple linear function."
+  },
+  {
+    "question": "Which CNN architecture first won the ImageNet competition in 2012?",
+    "options": {
+      "A": "LeNet",
+      "B": "AlexNet",
+      "C": "VGG",
+      "D": "ResNet"
+    },
+    "correct_answer": "B",
+    "explanation": "The first CNN architecture to win the ImageNet competition in 2012 was AlexNet."
+  },
+  {
+    "question": "What is the key innovation introduced by ResNet architecture?",
+    "options": {
+      "A": "Inception modules",
+      "B": "Skip connections",
+      "C": "Dropout layers",
+      "D": "Fully connected layers"
+    },
+    "correct_answer": "B",
+    "explanation": "ResNet introduced skip connections, which help deep networks train better by allowing information to flow directly across layers. This solves the vanishing gradient problem and enables very deep networks to perform well."
+  },
+  {
+    "question": "What type of problem is typically solved using CNNs in medical imaging?",
+    "options": {
+      "A": "Disease detection",
+      "B": "Sentiment analysis",
+      "C": "Time series prediction",
+      "D": "Language translation"
+    },
+    "correct_answer": "A",
+    "explanation": "CNNs are commonly used in medical imaging for disease detection, such as identifying tumors in MRI scans or detecting pneumonia in X-rays. They automatically learn patterns from images, making diagnosis faster and more accurate."
+  },
+  {
+    "question": "Which CNN model is known for using small 3x3 convolution filters with deep layers?",
+    "options": {
+      "A": "GoogleNet",
+      "B": "AlexNet",
+      "C": "VGG",
+      "D": "ResNet"
+    },
+    "correct_answer": "C",
+    "explanation": "VGG uses small 3x3 filters with many layers helping the model capture more detailed patterns."
+  },
+  {
+    "question_number": 1,
+    "question": "What is the primary advantage of using anchor boxes in object detection?",
+    "options": [
+      "A. Faster image resizing.",
+      "B. Improved color correction.",
+      "C. Enhanced noise reduction.",
+      "D. Handling objects of different sizes and aspect ratios."
+    ],
+    "correct_answer": "D. Handling objects of different sizes and aspect ratios.",
+    "explanation": "Anchor boxes serve as predefined reference bounding boxes of specific shapes and sizes. They allow an object detection network to simultaneously evaluate and predict bounding boxes for overlapping objects that have varying scales and aspect ratios."
+  },
+  {
+    "question_number": 2,
+    "question": "Which object detection technique is based on the idea of extracting features from a convolutional neural network (CNN) and using them for object classification and localization?",
+    "options": [
+      "A. Histogram equalization.",
+      "B. Gabor filter.",
+      "C. R-CNN (Region-Based Convolutional Neural Network)",
+      "D. Median filtering."
+    ],
+    "correct_answer": "C. R-CNN (Region-Based Convolutional Neural Network)",
+    "explanation": "R-CNN passes region proposals through a convolutional backbone to extract deep feature vectors, which are then used by classifiers (like SVMs) and bounding-box regressors for classification and localization."
+  },
+  {
+    "question_number": 3,
+    "question": "In object detection, what does the term \"anchor\" refer to?",
+    "options": [
+      "A. An object's unique identifier.",
+      "B. A region of the image with high contrast.",
+      "C. A reference point for determining object locations and scales.",
+      "D. An image enhancement technique."
+    ],
+    "correct_answer": "C. A reference point for determining object locations and scales.",
+    "explanation": "An anchor box is a standardized reference frame centered at a grid cell location used by the model to predict offsets and scale factors for bounding boxes."
+  },
+  {
+    "question_number": 4,
+    "question": "In object detection, what is a \"bounding box\"?",
+    "options": [
+      "A. A method for reducing image resolution.",
+      "B. A technique for color correction.",
+      "C. A rectangle that encloses an object in an image.",
+      "D. A way to filter out image noise."
+    ],
+    "correct_answer": "C. A rectangle that encloses an object in an image.",
+    "explanation": "A bounding box is a rectangular frame defined by spatial coordinates $(x, y, w, h)$ or $(x_{min}, y_{min}, x_{max}, y_{max})$ that wraps around a targeted object to indicate its position."
+  },
+  {
+    "question_number": 5,
+    "question": "What is the primary goal of \"object localization\" in object detection?",
+    "options": [
+      "A. Identifying and classifying objects.",
+      "B. Enhancing image colors.",
+      "C. Noise reduction.",
+      "D. Precisely determining the location of objects in an image."
+    ],
+    "correct_answer": "D. Precisely determining the location of objects in an image.",
+    "explanation": "While classification answers *what* object is present in an image, localization is explicitly focused on predicting spatial coordinates to pin down *where* the object resides."
+  },
+  {
+    "question_number": 6,
+    "question": "Which object detection algorithm is known for its ability to perform real-time object detection in images and video streams?",
+    "options": [
+      "A. Histogram equalization.",
+      "B. ORB (Oriented FAST and Rotated BRIEF)",
+      "C. YOLO (You Only Look Once)",
+      "D. Canny edge detector."
+    ],
+    "correct_answer": "C. YOLO (You Only Look Once)",
+    "explanation": "YOLO reframes object detection as a single regression problem, passing the entire image through the network once to predict bounding boxes and class probabilities simultaneously, making it fast enough for real-time video streams."
+  },
+  {
+    "question_number": 7,
+    "question": "Which object detection algorithm is known for its use of a \"convolutional sliding window\" to predict object bounding boxes?",
+    "options": [
+      "A. Harris Corner Detector.",
+      "B. Gabor filter.",
+      "C. R-CNN (Region-Based Convolutional Neural Network)",
+      "D. Median filtering."
+    ],
+    "correct_answer": "C. R-CNN (Region-Based Convolutional Neural Network)",
+    "explanation": "R-CNN frameworks and their multi-stage descendants historically converted traditional sliding windows into efficient convolutional feature maps to evaluate spatial locations concurrently."
+  },
+  {
+    "question_number": 8,
+    "question": "Which technique is used to evaluate the performance of object detection models by comparing the predicted bounding boxes with ground truth annotations?",
+    "options": [
+      "A. Median filtering.",
+      "B. Non-maximum suppression.",
+      "C. Intersection over Union (IoU)",
+      "D. Histogram equalization."
+    ],
+    "correct_answer": "C. Intersection over Union (IoU)",
+    "explanation": "Intersection over Union (IoU) measures the overlap between a predicted bounding box and the ground truth box, calculated as the area of intersection divided by the area of union."
+  },
+  {
+    "question_number": 9,
+    "question": "In the context of object detection, what is \"fine-tuning\"?",
+    "options": [
+      "A. Adjusting image colors.",
+      "B. Enhancing noise reduction.",
+      "C. Fine-tuning the parameters of a pre-trained model on a specific dataset.",
+      "D. Image resizing."
+    ],
+    "correct_answer": "C. Fine-tuning the parameters of a pre-trained model on a specific dataset.",
+    "explanation": "Fine-tuning updates a pre-trained model's parameters (e.g., a model pre-trained on ImageNet or COCO) on a smaller, task-specific dataset to adapt it to new classes."
+  },
+  {
+    "question_number": 10,
+    "question": "What is the main advantage of using deep learning-based object detection models over traditional methods?",
+    "options": [
+      "A. Faster inference speed.",
+      "B. Improved image resizing capabilities.",
+      "C. Superior noise reduction.",
+      "D. Higher accuracy and flexibility."
+    ],
+    "correct_answer": "D. Higher accuracy and flexibility.",
+    "explanation": "Deep learning models automatically learn hierarchical feature representations from raw pixel data instead of relying on manually crafted features (like HOG or SIFT), which provides superior accuracy and adaptation across varied environments."
+  },
+  {
+    "question_number": 11,
+    "question": "Which object detection algorithm is known for its use of anchor boxes and feature pyramids to improve accuracy and localization?",
+    "options": [
+      "A. SIFT (Scale-Invariant Feature Transform)",
+      "B. RANSAC (Random Sample Consensus)",
+      "C. Mask R-CNN.",
+      "D. Harris Corner Detector."
+    ],
+    "correct_answer": "C. Mask R-CNN.",
+    "explanation": "Mask R-CNN builds on Faster R-CNN by integrating Feature Pyramid Networks (FPN) and anchor box configurations to accurately detect and segment objects across multiple feature scales."
+  },
+  {
+    "question_number": 12,
+    "question": "What is the primary purpose of an object detection dataset like COCO (Common Objects in Context)?",
+    "options": [
+      "A. Enhancing image colors.",
+      "B. Image resizing.",
+      "C. Providing labeled data for training and evaluation of object detection models.",
+      "D. Noise reduction."
+    ],
+    "correct_answer": "C. Providing labeled data for training and evaluation of object detection models.",
+    "explanation": "COCO is a large-scale dataset that contains hundreds of thousands of images labeled with bounding boxes and segmentation masks for object detection, instance segmentation, and captioning."
+  },
+  {
+    "question_number": 13,
+    "question": "Which object detection method is designed to detect and classify objects by sliding a window over an image and making predictions at each location?",
+    "options": [
+      "A. YOLO (You Only Look Once)",
+      "B. Histogram equalization.",
+      "C. ORB (Oriented FAST and Rotated BRIEF)",
+      "D. Median filtering."
+    ],
+    "correct_answer": "A. YOLO (You Only Look Once)",
+    "explanation": "YOLO replaces old-school manual sliding window parsing layouts by dividing an input image into a localized grid and computing all regional bounding box predictions simultaneously."
+  },
+  {
+    "question_number": 14,
+    "question": "Which object detection algorithm is known for its flexibility in handling objects of varying sizes and scales?",
+    "options": [
+      "A. Histogram equalization.",
+      "B. Faster R-CNN.",
+      "C. Canny edge detector.",
+      "D. Harris Corner Detector."
+    ],
+    "correct_answer": "B. Faster R-CNN.",
+    "explanation": "Faster R-CNN uses a Region Proposal Network (RPN) with anchor boxes of varying scales and aspect ratios, making it highly effective at identifying objects of different sizes."
+  },
+  {
+    "question_number": 15,
+    "question": "Which object detection algorithm is based on the idea of generating anchor boxes of different aspect ratios and scales to detect objects?",
+    "options": [
+      "A. Harris Corner Detector.",
+      "B. RANSAC (Random Sample Consensus)",
+      "C. Histogram equalization.",
+      "D. SSD (Single Shot MultiBox Detector)"
+    ],
+    "correct_answer": "D. SSD (Single Shot MultiBox Detector)",
+    "explanation": "SSD uses multi-scale feature maps at the output of the network to predict bounding boxes across varied anchor box sizes and aspect ratios, balancing speed and accuracy."
+  },
+  {
+    "question_number": 16,
+    "question": "In object detection, what is the primary purpose of non-maximum suppression (NMS)?",
+    "options": [
+      "A. Enhancing image colors.",
+      "B. Reducing image noise.",
+      "C. Filtering out redundant bounding boxes.",
+      "D. Improving object classification accuracy."
+    ],
+    "correct_answer": "C. Filtering out redundant bounding boxes.",
+    "explanation": "Object detection networks often predict multiple overlapping bounding boxes for a single object. NMS keeps the box with the highest confidence score and eliminates redundant overlapping boxes that have high IoU scores."
+  },
+  {
+    "question_number": 17,
+    "question": "What is the primary advantage of using a one-stage object detection algorithm like YOLO or SSD?",
+    "options": [
+      "A. Higher accuracy.",
+      "B. Faster inference speed.",
+      "C. Robustness to image noise.",
+      "D. Precise localization of objects."
+    ],
+    "correct_answer": "B. Faster inference speed.",
+    "explanation": "One-stage detectors map raw pixels directly to bounding boxes and class scores in a single forward pass, skipping the separate region proposal step used by two-stage detectors (like Faster R-CNN) to maximize processing speeds."
+  },
+  {
+    "question_number": 18,
+    "question": "Which object detection technique is based on dividing an image into a grid and predicting the presence and position of objects within each grid cell?",
+    "options": [
+      "A. YOLO (You Only Look Once)",
+      "B. SIFT (Scale-Invariant Feature Transform)",
+      "C. Harris Corner Detector.",
+      "D. Histogram equalization."
+    ],
+    "correct_answer": "A. YOLO (You Only Look Once)",
+    "explanation": "YOLO divides the input image into an $S \times S$ grid. If an object's center falls within a grid cell, that specific cell is responsible for predicting its bounding box coordinates and class probabilities."
+  }
+
+
+]
+
