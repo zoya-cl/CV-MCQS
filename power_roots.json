@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is 23² ?",
+    "options": {"A": "529", "B": "519", "C": "539", "D": "509"},
+    "correct_answer": "A",
+    "explanation": "23² = 23×23 = 529."
+  },
+  {
+    "question": "What is 34² ?",
+    "options": {"A": "1156", "B": "1146", "C": "1166", "D": "1136"},
+    "correct_answer": "A",
+    "explanation": "34² = 34×34 = 1156."
+  },
+  {
+    "question": "What is 47² ?",
+    "options": {"A": "2209", "B": "2199", "C": "2219", "D": "2189"},
+    "correct_answer": "A",
+    "explanation": "47² = (50−3)² = 2500 − 300 + 9 = 2209."
+  },
+  {
+    "question": "What is 58² ?",
+    "options": {"A": "3364", "B": "3354", "C": "3374", "D": "3344"},
+    "correct_answer": "A",
+    "explanation": "58² = (60−2)² = 3600 − 240 + 4 = 3364."
+  },
+  {
+    "question": "What is 63² ?",
+    "options": {"A": "3969", "B": "3959", "C": "3979", "D": "3949"},
+    "correct_answer": "A",
+    "explanation": "63² = (60+3)² = 3600 + 360 + 9 = 3969."
+  },
+  {
+    "question": "What is 72² ?",
+    "options": {"A": "5184", "B": "5174", "C": "5194", "D": "5164"},
+    "correct_answer": "A",
+    "explanation": "72² = (70+2)² = 4900 + 280 + 4 = 5184."
+  },
+  {
+    "question": "What is 81² ?",
+    "options": {"A": "6561", "B": "6551", "C": "6571", "D": "6541"},
+    "correct_answer": "A",
+    "explanation": "81² = (80+1)² = 6400 + 160 + 1 = 6561."
+  },
+  {
+    "question": "What is 86² ?",
+    "options": {"A": "7396", "B": "7386", "C": "7406", "D": "7376"},
+    "correct_answer": "A",
+    "explanation": "86² = (90−4)² = 8100 − 720 + 16 = 7396."
+  },
+  {
+    "question": "What is 94² ?",
+    "options": {"A": "8836", "B": "8826", "C": "8846", "D": "8816"},
+    "correct_answer": "A",
+    "explanation": "94² = (90+4)² = 8100 + 720 + 16 = 8836."
+  },
+  {
+    "question": "What is 99² ?",
+    "options": {"A": "9801", "B": "9791", "C": "9811", "D": "9781"},
+    "correct_answer": "A",
+    "explanation": "99² = (100−1)² = 10000 − 200 + 1 = 9801."
+  },
+  {
+    "question": "What is 45² ?",
+    "options": {"A": "2025", "B": "2015", "C": "2035", "D": "2005"},
+    "correct_answer": "A",
+    "explanation": "For numbers ending in 5: 4×5=20, append 25 → 2025."
+  },
+  {
+    "question": "What is 65² ?",
+    "options": {"A": "4225", "B": "4215", "C": "4235", "D": "4205"},
+    "correct_answer": "A",
+    "explanation": "6×7=42, append 25 → 4225."
+  },
+  {
+    "question": "What is 75² ?",
+    "options": {"A": "5625", "B": "5615", "C": "5635", "D": "5605"},
+    "correct_answer": "A",
+    "explanation": "7×8=56, append 25 → 5625."
+  },
+  {
+    "question": "What is 55² ?",
+    "options": {"A": "3025", "B": "3015", "C": "3035", "D": "3005"},
+    "correct_answer": "A",
+    "explanation": "5×6=30, append 25 → 3025."
+  },
+  {
+    "question": "What is 88² ?",
+    "options": {"A": "7744", "B": "7734", "C": "7754", "D": "7724"},
+    "correct_answer": "A",
+    "explanation": "88² = (90−2)² = 8100 − 360 + 4 = 7744."
+  },
+  {
+    "question": "What is 37² ?",
+    "options": {"A": "1369", "B": "1359", "C": "1379", "D": "1349"},
+    "correct_answer": "A",
+    "explanation": "37² = (40−3)² = 1600 − 240 + 9 = 1369."
+  },
+  {
+    "question": "What is 68² ?",
+    "options": {"A": "4624", "B": "4614", "C": "4634", "D": "4604"},
+    "correct_answer": "A",
+    "explanation": "68² = (70−2)² = 4900 − 280 + 4 = 4624."
+  },
+  {
+    "question": "What is 79² ?",
+    "options": {"A": "6241", "B": "6231", "C": "6251", "D": "6221"},
+    "correct_answer": "A",
+    "explanation": "79² = (80−1)² = 6400 − 160 + 1 = 6241."
+  },
+  {
+    "question": "What is 92² ?",
+    "options": {"A": "8464", "B": "8454", "C": "8474", "D": "8444"},
+    "correct_answer": "A",
+    "explanation": "92² = (90+2)² = 8100 + 360 + 4 = 8464."
+  },
+  {
+    "question": "What is 53² ?",
+    "options": {"A": "2809", "B": "2799", "C": "2819", "D": "2789"},
+    "correct_answer": "A",
+    "explanation": "53² = (50+3)² = 2500 + 300 + 9 = 2809."
+  },
+  {
+    "question": "What is √50, rounded to two decimal places?",
+    "options": {"A": "7.07", "B": "7.05", "C": "7.10", "D": "7.02"},
+    "correct_answer": "A",
+    "explanation": "7²=49, 7.1²=50.41; interpolating gives √50 ≈ 7.07."
+  },
+  {
+    "question": "What is √20, rounded to two decimal places?",
+    "options": {"A": "4.47", "B": "4.45", "C": "4.50", "D": "4.42"},
+    "correct_answer": "A",
+    "explanation": "4.47² ≈ 19.98, close to 20, so √20 ≈ 4.47."
+  },
+  {
+    "question": "What is √75, rounded to two decimal places?",
+    "options": {"A": "8.66", "B": "8.60", "C": "8.70", "D": "8.62"},
+    "correct_answer": "A",
+    "explanation": "8.66² ≈ 75.0, so √75 ≈ 8.66."
+  },
+  {
+    "question": "What is √110, rounded to two decimal places?",
+    "options": {"A": "10.49", "B": "10.45", "C": "10.52", "D": "10.40"},
+    "correct_answer": "A",
+    "explanation": "10.49² ≈ 110.04, so √110 ≈ 10.49."
+  },
+  {
+    "question": "What is √200, rounded to two decimal places?",
+    "options": {"A": "14.14", "B": "14.10", "C": "14.20", "D": "14.05"},
+    "correct_answer": "A",
+    "explanation": "14.14² ≈ 199.94, so √200 ≈ 14.14."
+  },
+  {
+    "question": "What is √85, rounded to two decimal places?",
+    "options": {"A": "9.22", "B": "9.18", "C": "9.25", "D": "9.15"},
+    "correct_answer": "A",
+    "explanation": "9.22² ≈ 85.0, so √85 ≈ 9.22."
+  },
+  {
+    "question": "What is √60, rounded to two decimal places?",
+    "options": {"A": "7.75", "B": "7.70", "C": "7.80", "D": "7.65"},
+    "correct_answer": "A",
+    "explanation": "7.75² ≈ 60.06, so √60 ≈ 7.75."
+  },
+  {
+    "question": "What is √150, rounded to two decimal places?",
+    "options": {"A": "12.25", "B": "12.20", "C": "12.30", "D": "12.15"},
+    "correct_answer": "A",
+    "explanation": "12.25² ≈ 150.06, so √150 ≈ 12.25."
+  },
+  {
+    "question": "What is √300, rounded to two decimal places?",
+    "options": {"A": "17.32", "B": "17.25", "C": "17.40", "D": "17.20"},
+    "correct_answer": "A",
+    "explanation": "17.32² ≈ 299.98, so √300 ≈ 17.32."
+  },
+  {
+    "question": "What is √40, rounded to two decimal places?",
+    "options": {"A": "6.32", "B": "6.28", "C": "6.35", "D": "6.25"},
+    "correct_answer": "A",
+    "explanation": "6.32² ≈ 39.94, so √40 ≈ 6.32."
+  },
+  {
+    "question": "What is √90, rounded to two decimal places?",
+    "options": {"A": "9.49", "B": "9.45", "C": "9.52", "D": "9.40"},
+    "correct_answer": "A",
+    "explanation": "9.49² ≈ 90.06, so √90 ≈ 9.49."
+  },
+  {
+    "question": "What is √130, rounded to two decimal places?",
+    "options": {"A": "11.40", "B": "11.35", "C": "11.45", "D": "11.30"},
+    "correct_answer": "A",
+    "explanation": "11.40² = 129.96, so √130 ≈ 11.40."
+  },
+  {
+    "question": "What is √250, rounded to two decimal places?",
+    "options": {"A": "15.81", "B": "15.75", "C": "15.85", "D": "15.70"},
+    "correct_answer": "A",
+    "explanation": "15.81² ≈ 249.96, so √250 ≈ 15.81."
+  },
+  {
+    "question": "What is √170, rounded to two decimal places?",
+    "options": {"A": "13.04", "B": "13.00", "C": "13.10", "D": "12.95"},
+    "correct_answer": "A",
+    "explanation": "13.04² ≈ 170.04, so √170 ≈ 13.04."
+  },
+  {
+    "question": "What is √45, rounded to two decimal places?",
+    "options": {"A": "6.71", "B": "6.65", "C": "6.75", "D": "6.60"},
+    "correct_answer": "A",
+    "explanation": "6.71² ≈ 45.02, so √45 ≈ 6.71."
+  },
+  {
+    "question": "Which two consecutive integers does √70 lie between?",
+    "options": {"A": "8 and 9", "B": "7 and 8", "C": "9 and 10", "D": "6 and 7"},
+    "correct_answer": "A",
+    "explanation": "8²=64 and 9²=81, and 64<70<81, so √70 lies between 8 and 9."
+  },
+  {
+    "question": "Which two consecutive integers does √115 lie between?",
+    "options": {"A": "10 and 11", "B": "11 and 12", "C": "9 and 10", "D": "12 and 13"},
+    "correct_answer": "A",
+    "explanation": "10²=100 and 11²=121, and 100<115<121, so √115 lies between 10 and 11."
+  },
+  {
+    "question": "What is 12² ?",
+    "options": {"A": "144", "B": "134", "C": "154", "D": "124"},
+    "correct_answer": "A",
+    "explanation": "12² = 144."
+  },
+  {
+    "question": "What is 19² ?",
+    "options": {"A": "361", "B": "351", "C": "371", "D": "341"},
+    "correct_answer": "A",
+    "explanation": "19² = (20−1)² = 400 − 40 + 1 = 361."
+  },
+  {
+    "question": "What is 28² ?",
+    "options": {"A": "784", "B": "774", "C": "794", "D": "764"},
+    "correct_answer": "A",
+    "explanation": "28² = (30−2)² = 900 − 120 + 4 = 784."
+  },
+  {
+    "question": "What is 41² ?",
+    "options": {"A": "1681", "B": "1671", "C": "1691", "D": "1661"},
+    "correct_answer": "A",
+    "explanation": "41² = (40+1)² = 1600 + 80 + 1 = 1681."
+  },
+  {
+    "question": "What is 96² ?",
+    "options": {"A": "9216", "B": "9206", "C": "9226", "D": "9196"},
+    "correct_answer": "A",
+    "explanation": "96² = (100−4)² = 10000 − 800 + 16 = 9216."
+  },
+  {
+    "question": "What is 100² ?",
+    "options": {"A": "10000", "B": "9900", "C": "10100", "D": "9800"},
+    "correct_answer": "A",
+    "explanation": "100² = 10000."
+  },
+  {
+    "question": "What is √8, rounded to two decimal places?",
+    "options": {"A": "2.83", "B": "2.80", "C": "2.85", "D": "2.75"},
+    "correct_answer": "A",
+    "explanation": "2.83² ≈ 8.01, so √8 ≈ 2.83."
+  },
+  {
+    "question": "What is √18, rounded to two decimal places?",
+    "options": {"A": "4.24", "B": "4.20", "C": "4.30", "D": "4.15"},
+    "correct_answer": "A",
+    "explanation": "4.24² ≈ 17.98, so √18 ≈ 4.24."
+  },
+  {
+    "question": "What is √32, rounded to two decimal places?",
+    "options": {"A": "5.66", "B": "5.60", "C": "5.70", "D": "5.55"},
+    "correct_answer": "A",
+    "explanation": "5.66² ≈ 32.04, so √32 ≈ 5.66."
+  },
+  {
+    "question": "What is √95, rounded to two decimal places?",
+    "options": {"A": "9.75", "B": "9.70", "C": "9.80", "D": "9.65"},
+    "correct_answer": "A",
+    "explanation": "9.75² ≈ 95.06, so √95 ≈ 9.75."
+  },
+  {
+    "question": "What is √55, rounded to two decimal places?",
+    "options": {"A": "7.42", "B": "7.38", "C": "7.45", "D": "7.35"},
+    "correct_answer": "A",
+    "explanation": "7.42² ≈ 55.06, so √55 ≈ 7.42."
+  },
+  {
+    "question": "What is √175, rounded to two decimal places?",
+    "options": {"A": "13.23", "B": "13.18", "C": "13.28", "D": "13.15"},
+    "correct_answer": "A",
+    "explanation": "13.23² ≈ 175.03, so √175 ≈ 13.23."
+  },
+  {
+    "question": "What is 67² ?",
+    "options": {"A": "4489", "B": "4479", "C": "4499", "D": "4469"},
+    "correct_answer": "A",
+    "explanation": "67² = (70−3)² = 4900 − 420 + 9 = 4489."
+  }
+]

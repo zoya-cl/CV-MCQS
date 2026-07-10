@@ -1,0 +1,296 @@
+[
+  {
+    "question": "What is 0.25 expressed as a fraction in lowest terms?",
+    "options": {"A": "1/4", "B": "1/5", "C": "2/5", "D": "1/3"},
+    "correct_answer": "A",
+    "explanation": "0.25 = 25/100 = 1/4."
+  },
+  {
+    "question": "What is 0.375 expressed as a fraction in lowest terms?",
+    "options": {"A": "3/8", "B": "5/8", "C": "3/16", "D": "7/16"},
+    "correct_answer": "A",
+    "explanation": "0.375 = 375/1000 = 3/8."
+  },
+  {
+    "question": "What is 0.6 expressed as a fraction in lowest terms?",
+    "options": {"A": "3/5", "B": "2/3", "C": "6/10", "D": "3/10"},
+    "correct_answer": "A",
+    "explanation": "0.6 = 6/10 = 3/5."
+  },
+  {
+    "question": "What is 0.05 expressed as a fraction in lowest terms?",
+    "options": {"A": "1/20", "B": "1/2", "C": "5/100", "D": "1/5"},
+    "correct_answer": "A",
+    "explanation": "0.05 = 5/100 = 1/20."
+  },
+  {
+    "question": "What is 0.125 expressed as a fraction in lowest terms?",
+    "options": {"A": "1/8", "B": "1/4", "C": "3/8", "D": "1/16"},
+    "correct_answer": "A",
+    "explanation": "0.125 = 125/1000 = 1/8."
+  },
+  {
+    "question": "What is 0.7 expressed as a fraction in lowest terms?",
+    "options": {"A": "7/10", "B": "7/100", "C": "3/10", "D": "7/9"},
+    "correct_answer": "A",
+    "explanation": "0.7 = 7/10, already in lowest terms."
+  },
+  {
+    "question": "What is 0.16 (recurring, i.e. 0.1666...) expressed as a fraction?",
+    "options": {"A": "1/6", "B": "1/5", "C": "1/7", "D": "2/9"},
+    "correct_answer": "A",
+    "explanation": "0.1666... = 1/6."
+  },
+  {
+    "question": "What is 0.45 expressed as a fraction in lowest terms?",
+    "options": {"A": "9/20", "B": "9/10", "C": "4/9", "D": "9/25"},
+    "correct_answer": "A",
+    "explanation": "0.45 = 45/100 = 9/20."
+  },
+  {
+    "question": "What is 0.55 expressed as a fraction in lowest terms?",
+    "options": {"A": "11/20", "B": "11/10", "C": "5/9", "D": "11/25"},
+    "correct_answer": "A",
+    "explanation": "0.55 = 55/100 = 11/20."
+  },
+  {
+    "question": "What is 0.85 expressed as a fraction in lowest terms?",
+    "options": {"A": "17/20", "B": "17/10", "C": "8/9", "D": "17/25"},
+    "correct_answer": "A",
+    "explanation": "0.85 = 85/100 = 17/20."
+  },
+  {
+    "question": "What is 0.44 (recurring, i.e. 4/9) as a decimal-to-fraction match?",
+    "options": {"A": "4/9", "B": "4/11", "C": "44/100", "D": "2/5"},
+    "correct_answer": "A",
+    "explanation": "0.4444... recurring equals 4/9."
+  },
+  {
+    "question": "What is 0.4 expressed as a fraction in lowest terms?",
+    "options": {"A": "2/5", "B": "4/5", "C": "1/4", "D": "4/9"},
+    "correct_answer": "A",
+    "explanation": "0.4 = 4/10 = 2/5."
+  },
+  {
+    "question": "What is 0.24 expressed as a fraction in lowest terms?",
+    "options": {"A": "6/25", "B": "12/50", "C": "24/100", "D": "3/12"},
+    "correct_answer": "A",
+    "explanation": "0.24 = 24/100 = 6/25."
+  },
+  {
+    "question": "Which fraction is closest to 0.3333... with denominator up to 20?",
+    "options": {"A": "1/3", "B": "6/19", "C": "7/20", "D": "5/16"},
+    "correct_answer": "A",
+    "explanation": "0.3333... is exactly 1/3."
+  },
+  {
+    "question": "What is 0.9 expressed as a fraction in lowest terms?",
+    "options": {"A": "9/10", "B": "9/100", "C": "1/9", "D": "9/11"},
+    "correct_answer": "A",
+    "explanation": "0.9 = 9/10, already in lowest terms."
+  },
+  {
+    "question": "A price increases from ₹200 to ₹250. What is the percentage increase?",
+    "options": {"A": "25%", "B": "20%", "C": "30%", "D": "15%"},
+    "correct_answer": "A",
+    "explanation": "Increase = 50, percentage = (50/200)×100 = 25%."
+  },
+  {
+    "question": "A price decreases from ₹500 to ₹400. What is the percentage decrease?",
+    "options": {"A": "20%", "B": "25%", "C": "15%", "D": "10%"},
+    "correct_answer": "A",
+    "explanation": "Decrease = 100, percentage = (100/500)×100 = 20%."
+  },
+  {
+    "question": "A quantity rises from 80 to 100. What is the percentage increase?",
+    "options": {"A": "25%", "B": "20%", "C": "18%", "D": "22%"},
+    "correct_answer": "A",
+    "explanation": "Increase = 20, percentage = (20/80)×100 = 25%."
+  },
+  {
+    "question": "A quantity falls from 120 to 90. What is the percentage decrease?",
+    "options": {"A": "25%", "B": "30%", "C": "20%", "D": "15%"},
+    "correct_answer": "A",
+    "explanation": "Decrease = 30, percentage = (30/120)×100 = 25%."
+  },
+  {
+    "question": "What is 15% of 240?",
+    "options": {"A": "36", "B": "34", "C": "38", "D": "32"},
+    "correct_answer": "A",
+    "explanation": "15% of 240 = 0.15 × 240 = 36."
+  },
+  {
+    "question": "What is 35% of 180?",
+    "options": {"A": "63", "B": "60", "C": "65", "D": "58"},
+    "correct_answer": "A",
+    "explanation": "35% of 180 = 0.35 × 180 = 63."
+  },
+  {
+    "question": "What is 12% of 350?",
+    "options": {"A": "42", "B": "40", "C": "44", "D": "38"},
+    "correct_answer": "A",
+    "explanation": "12% of 350 = 0.12 × 350 = 42."
+  },
+  {
+    "question": "A number is increased by 20% and then decreased by 20%. What is the net percentage change?",
+    "options": {"A": "-4%", "B": "0%", "C": "+4%", "D": "-2%"},
+    "correct_answer": "A",
+    "explanation": "Net change = -(20²)/100 = -4%, so overall a 4% decrease."
+  },
+  {
+    "question": "A number is increased by 10% and then increased by 10% again. What is the net percentage increase?",
+    "options": {"A": "21%", "B": "20%", "C": "22%", "D": "19%"},
+    "correct_answer": "A",
+    "explanation": "Net = 10 + 10 + (10×10)/100 = 21%."
+  },
+  {
+    "question": "A number is decreased by 25% and then increased by 25%. What is the net percentage change?",
+    "options": {"A": "-6.25%", "B": "0%", "C": "+6.25%", "D": "-5%"},
+    "correct_answer": "A",
+    "explanation": "Net change = -(25×25)/100 = -6.25%."
+  },
+  {
+    "question": "A shopkeeper gives a 20% discount on a ₹1500 item. What is the discounted price?",
+    "options": {"A": "₹1200", "B": "₹1250", "C": "₹1300", "D": "₹1350"},
+    "correct_answer": "A",
+    "explanation": "Discount = 20% of 1500 = 300; price = 1500 − 300 = 1200."
+  },
+  {
+    "question": "A shopkeeper gives a successive discount of 10% and 10% on ₹1000. What is the final price?",
+    "options": {"A": "₹810", "B": "₹800", "C": "₹820", "D": "₹790"},
+    "correct_answer": "A",
+    "explanation": "First discount: 1000×0.9=900; second: 900×0.9=810."
+  },
+  {
+    "question": "A successive discount of 20% and 5% is applied on ₹2000. What is the final price?",
+    "options": {"A": "₹1520", "B": "₹1500", "C": "₹1540", "D": "₹1480"},
+    "correct_answer": "A",
+    "explanation": "2000×0.8=1600; 1600×0.95=1520."
+  },
+  {
+    "question": "What single discount is equivalent to two successive discounts of 10% and 20%?",
+    "options": {"A": "28%", "B": "30%", "C": "25%", "D": "32%"},
+    "correct_answer": "A",
+    "explanation": "Combined = 1 − (0.9×0.8) = 1 − 0.72 = 0.28 = 28%."
+  },
+  {
+    "question": "What single discount is equivalent to two successive discounts of 15% and 15%?",
+    "options": {"A": "27.75%", "B": "30%", "C": "25%", "D": "28.5%"},
+    "correct_answer": "A",
+    "explanation": "Combined = 1 − (0.85×0.85) = 1 − 0.7225 = 0.2775 = 27.75%."
+  },
+  {
+    "question": "₹5000 is invested at 10% p.a. compound interest for 2 years. What is the amount at the end?",
+    "options": {"A": "₹6050", "B": "₹6000", "C": "₹6100", "D": "₹5950"},
+    "correct_answer": "A",
+    "explanation": "A = 5000×(1.1)² = 5000×1.21 = 6050."
+  },
+  {
+    "question": "₹8000 is invested at 5% p.a. compound interest for 2 years. What is the compound interest earned?",
+    "options": {"A": "₹820", "B": "₹800", "C": "₹840", "D": "₹780"},
+    "correct_answer": "A",
+    "explanation": "A = 8000×(1.05)² = 8000×1.1025 = 8820; CI = 8820−8000 = 820."
+  },
+  {
+    "question": "₹10000 is invested at 20% p.a. compound interest for 2 years. What is the amount?",
+    "options": {"A": "₹14400", "B": "₹14000", "C": "₹14200", "D": "₹14600"},
+    "correct_answer": "A",
+    "explanation": "A = 10000×(1.2)² = 10000×1.44 = 14400."
+  },
+  {
+    "question": "₹6000 is invested at 10% p.a. compound interest for 3 years. What is the amount (approx)?",
+    "options": {"A": "₹7986", "B": "₹7800", "C": "₹8100", "D": "₹7500"},
+    "correct_answer": "A",
+    "explanation": "A = 6000×(1.1)³ = 6000×1.331 = 7986."
+  },
+  {
+    "question": "What is the compound interest on ₹2000 at 10% p.a. for 2 years, compounded half-yearly?",
+    "options": {"A": "₹431.01", "B": "₹420", "C": "₹440", "D": "₹410"},
+    "correct_answer": "A",
+    "explanation": "Rate per half-year = 5%, n=4 periods: A=2000×(1.05)^4=2431.01; CI=431.01."
+  },
+  {
+    "question": "A sum triples in value using compound interest. What is the overall percentage increase?",
+    "options": {"A": "200%", "B": "300%", "C": "150%", "D": "100%"},
+    "correct_answer": "A",
+    "explanation": "Tripling means final = 3× original, so increase = (3−1)×100% = 200%."
+  },
+  {
+    "question": "If ₹4000 amounts to ₹4840 in 2 years at compound interest, what is the rate per annum?",
+    "options": {"A": "10%", "B": "8%", "C": "12%", "D": "9%"},
+    "correct_answer": "A",
+    "explanation": "(4840/4000) = 1.21 = (1.1)²; rate = 10%."
+  },
+  {
+    "question": "A quantity is increased by 50%. By what percentage must it now be decreased to return to the original value?",
+    "options": {"A": "33.33%", "B": "50%", "C": "40%", "D": "25%"},
+    "correct_answer": "A",
+    "explanation": "New value = 1.5x; to return to x, decrease needed = (0.5x/1.5x)×100 = 33.33%."
+  },
+  {
+    "question": "A quantity is decreased by 40%. By what percentage must it now be increased to return to the original value?",
+    "options": {"A": "66.67%", "B": "40%", "C": "60%", "D": "50%"},
+    "correct_answer": "A",
+    "explanation": "New value = 0.6x; increase needed = (0.4x/0.6x)×100 = 66.67%."
+  },
+  {
+    "question": "What is 7/20 expressed as a decimal?",
+    "options": {"A": "0.35", "B": "0.3", "C": "0.4", "D": "0.375"},
+    "correct_answer": "A",
+    "explanation": "7/20 = 0.35."
+  },
+  {
+    "question": "What is 9/16 expressed as a decimal?",
+    "options": {"A": "0.5625", "B": "0.5", "C": "0.6", "D": "0.575"},
+    "correct_answer": "A",
+    "explanation": "9/16 = 0.5625."
+  },
+  {
+    "question": "What is 11/18 expressed as a decimal (rounded to 3 decimal places)?",
+    "options": {"A": "0.611", "B": "0.615", "C": "0.605", "D": "0.622"},
+    "correct_answer": "A",
+    "explanation": "11/18 = 0.6111..., rounds to 0.611."
+  },
+  {
+    "question": "What is 13/20 expressed as a decimal?",
+    "options": {"A": "0.65", "B": "0.6", "C": "0.7", "D": "0.63"},
+    "correct_answer": "A",
+    "explanation": "13/20 = 0.65."
+  },
+  {
+    "question": "What is 3/16 expressed as a decimal?",
+    "options": {"A": "0.1875", "B": "0.2", "C": "0.15", "D": "0.175"},
+    "correct_answer": "A",
+    "explanation": "3/16 = 0.1875."
+  },
+  {
+    "question": "A shirt costs ₹800 after a 20% discount. What was the original price?",
+    "options": {"A": "₹1000", "B": "₹960", "C": "₹950", "D": "₹1050"},
+    "correct_answer": "A",
+    "explanation": "Let original = x; 0.8x = 800, so x = 1000."
+  },
+  {
+    "question": "After a 25% price increase, an item costs ₹500. What was the original price?",
+    "options": {"A": "₹400", "B": "₹375", "C": "₹425", "D": "₹450"},
+    "correct_answer": "A",
+    "explanation": "Let original = x; 1.25x = 500, so x = 400."
+  },
+  {
+    "question": "A student scores 45 out of 60 marks. What percentage is this?",
+    "options": {"A": "75%", "B": "70%", "C": "80%", "D": "65%"},
+    "correct_answer": "A",
+    "explanation": "(45/60)×100 = 75%."
+  },
+  {
+    "question": "A population grows from 4000 to 4840 in 2 years at a constant annual percentage growth. What is the annual growth rate?",
+    "options": {"A": "10%", "B": "8%", "C": "12%", "D": "9%"},
+    "correct_answer": "A",
+    "explanation": "4840/4000 = 1.21 = (1.1)², so annual growth rate = 10%."
+  },
+  {
+    "question": "₹15000 is invested at 8% p.a. compound interest for 2 years. What is the amount (approx)?",
+    "options": {"A": "₹17496", "B": "₹17400", "C": "₹17600", "D": "₹17300"},
+    "correct_answer": "A",
+    "explanation": "A = 15000×(1.08)² = 15000×1.1664 = 17496."
+  }
+]

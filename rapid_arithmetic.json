@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is 47 × 23?",
+    "options": {"A": "1081", "B": "1071", "C": "1091", "D": "1061"},
+    "correct_answer": "A",
+    "explanation": "47 × 23 = 47 × 20 + 47 × 3 = 940 + 141 = 1081."
+  },
+  {
+    "question": "What is 68 × 34?",
+    "options": {"A": "2212", "B": "2312", "C": "2292", "D": "2192"},
+    "correct_answer": "B",
+    "explanation": "68 × 34 = 68 × 30 + 68 × 4 = 2040 + 272 = 2312."
+  },
+  {
+    "question": "What is 92 × 19?",
+    "options": {"A": "1748", "B": "1728", "C": "1848", "D": "1768"},
+    "correct_answer": "A",
+    "explanation": "92 × 19 = 92 × 20 − 92 = 1840 − 92 = 1748."
+  },
+  {
+    "question": "What is 56 × 45?",
+    "options": {"A": "2420", "B": "2520", "C": "2480", "D": "2560"},
+    "correct_answer": "B",
+    "explanation": "56 × 45 = 56 × 40 + 56 × 5 = 2240 + 280 = 2520."
+  },
+  {
+    "question": "What is 73 × 27?",
+    "options": {"A": "1971", "B": "1961", "C": "1981", "D": "1951"},
+    "correct_answer": "A",
+    "explanation": "73 × 27 = (70+3)(30−3) = 2100 − 210 + 90 − 9 = 1971."
+  },
+  {
+    "question": "What is 84 × 16?",
+    "options": {"A": "1354", "B": "1344", "C": "1364", "D": "1334"},
+    "correct_answer": "B",
+    "explanation": "84 × 16 = 84 × 16 = 84×10 + 84×6 = 840 + 504 = 1344."
+  },
+  {
+    "question": "What is 128 × 234?",
+    "options": {"A": "29852", "B": "29952", "C": "30052", "D": "29752"},
+    "correct_answer": "B",
+    "explanation": "128 × 234 = 128 × 200 + 128 × 34 = 25600 + 4352 = 29952."
+  },
+  {
+    "question": "What is 356 × 142?",
+    "options": {"A": "50552", "B": "50452", "C": "50652", "D": "50352"},
+    "correct_answer": "A",
+    "explanation": "356 × 142 = 356 × 140 + 356 × 2 = 49840 + 712 = 50552."
+  },
+  {
+    "question": "What is 219 × 318?",
+    "options": {"A": "69542", "B": "69642", "C": "69442", "D": "69742"},
+    "correct_answer": "B",
+    "explanation": "219 × 318 = 219 × 300 + 219 × 18 = 65700 + 3942 = 69642."
+  },
+  {
+    "question": "What is 405 × 213?",
+    "options": {"A": "86265", "B": "86165", "C": "86365", "D": "86065"},
+    "correct_answer": "A",
+    "explanation": "405 × 213 = 405 × 200 + 405 × 13 = 81000 + 5265 = 86265."
+  },
+  {
+    "question": "What is 8000 − 3456?",
+    "options": {"A": "4544", "B": "4644", "C": "4444", "D": "4544 is correct"},
+    "correct_answer": "A",
+    "explanation": "8000 − 3456 = 4544, found via complement: 9999−3456=6543, +1=6544... recompute directly: 8000-3456=4544."
+  },
+  {
+    "question": "What is 10000 − 6789?",
+    "options": {"A": "3211", "B": "3311", "C": "3111", "D": "3221"},
+    "correct_answer": "A",
+    "explanation": "Using nines' complement: 9999 − 6789 = 3210, then add 1 = 3211."
+  },
+  {
+    "question": "What is 5432 − 2987?",
+    "options": {"A": "2445", "B": "2545", "C": "2345", "D": "2455"},
+    "correct_answer": "A",
+    "explanation": "5432 − 2987 = 2445 (direct subtraction, borrowing across digits)."
+  },
+  {
+    "question": "What is the complement of 3872 with respect to 10000?",
+    "options": {"A": "6128", "B": "6228", "C": "6028", "D": "6138"},
+    "correct_answer": "A",
+    "explanation": "Nines' complement of 3872 is 6127, plus 1 = 6128."
+  },
+  {
+    "question": "What is 9876 − 4567?",
+    "options": {"A": "5309", "B": "5209", "C": "5409", "D": "5319"},
+    "correct_answer": "A",
+    "explanation": "9876 − 4567 = 5309 by direct subtraction."
+  },
+  {
+    "question": "What is 70000 − 48235?",
+    "options": {"A": "21765", "B": "21865", "C": "21665", "D": "21965"},
+    "correct_answer": "A",
+    "explanation": "Nines' complement of 48235 (5-digit, use 99999) = 51764, add 1 → 51765; then 70000−48235 = 21765 verified directly."
+  },
+  {
+    "question": "What is 100000 − 76543?",
+    "options": {"A": "23457", "B": "23357", "C": "23557", "D": "23467"},
+    "correct_answer": "A",
+    "explanation": "Nines' complement of 76543 is 23456, plus 1 = 23457."
+  },
+  {
+    "question": "What is 6000 − 2468?",
+    "options": {"A": "3532", "B": "3632", "C": "3432", "D": "3542"},
+    "correct_answer": "A",
+    "explanation": "6000 − 2468 = 3532 by direct computation."
+  },
+  {
+    "question": "What is 84.5 ÷ 5?",
+    "options": {"A": "16.9", "B": "17.1", "C": "16.5", "D": "17.9"},
+    "correct_answer": "A",
+    "explanation": "84.5 ÷ 5 = 16.9."
+  },
+  {
+    "question": "What is 73 ÷ 8, rounded to two decimal places?",
+    "options": {"A": "9.13", "B": "9.12", "C": "9.14", "D": "9.11"},
+    "correct_answer": "A",
+    "explanation": "73 ÷ 8 = 9.125, rounds to 9.13."
+  },
+  {
+    "question": "What is 155 ÷ 6, rounded to two decimal places?",
+    "options": {"A": "25.83", "B": "25.82", "C": "25.84", "D": "25.81"},
+    "correct_answer": "A",
+    "explanation": "155 ÷ 6 = 25.8333…, rounds to 25.83."
+  },
+  {
+    "question": "What is 91 ÷ 7?",
+    "options": {"A": "13", "B": "12", "C": "13.5", "D": "14"},
+    "correct_answer": "A",
+    "explanation": "91 ÷ 7 = 13 exactly (7×13=91)."
+  },
+  {
+    "question": "What is 500 ÷ 7, rounded to two decimal places?",
+    "options": {"A": "71.43", "B": "71.42", "C": "71.44", "D": "71.41"},
+    "correct_answer": "A",
+    "explanation": "500 ÷ 7 = 71.4285…, rounds to 71.43."
+  },
+  {
+    "question": "What is 63.9 ÷ 3?",
+    "options": {"A": "21.3", "B": "21.2", "C": "21.4", "D": "21.1"},
+    "correct_answer": "A",
+    "explanation": "63.9 ÷ 3 = 21.3."
+  },
+  {
+    "question": "What is 250 ÷ 9, rounded to two decimal places?",
+    "options": {"A": "27.78", "B": "27.77", "C": "27.79", "D": "27.76"},
+    "correct_answer": "A",
+    "explanation": "250 ÷ 9 = 27.777…, rounds to 27.78."
+  },
+  {
+    "question": "What is 1000 ÷ 13, rounded to two decimal places?",
+    "options": {"A": "76.92", "B": "76.91", "C": "76.93", "D": "76.90"},
+    "correct_answer": "A",
+    "explanation": "1000 ÷ 13 = 76.923…, rounds to 76.92."
+  },
+  {
+    "question": "What is 39 × 41?",
+    "options": {"A": "1599", "B": "1589", "C": "1609", "D": "1619"},
+    "correct_answer": "A",
+    "explanation": "Using (40−1)(40+1) = 40² − 1 = 1600 − 1 = 1599."
+  },
+  {
+    "question": "What is 58 × 62?",
+    "options": {"A": "3596", "B": "3586", "C": "3606", "D": "3576"},
+    "correct_answer": "A",
+    "explanation": "(60−2)(60+2) = 3600 − 4 = 3596."
+  },
+  {
+    "question": "What is 97 × 103?",
+    "options": {"A": "9991", "B": "9981", "C": "10001", "D": "9971"},
+    "correct_answer": "A",
+    "explanation": "(100−3)(100+3) = 10000 − 9 = 9991."
+  },
+  {
+    "question": "What is 76 × 24?",
+    "options": {"A": "1824", "B": "1814", "C": "1834", "D": "1804"},
+    "correct_answer": "A",
+    "explanation": "76 × 24 = 76 × 24 = 76×20 + 76×4 = 1520+304 = 1824."
+  },
+  {
+    "question": "What is 88 × 88?",
+    "options": {"A": "7744", "B": "7644", "C": "7844", "D": "7744 both"},
+    "correct_answer": "A",
+    "explanation": "88² = (90−2)² = 8100 − 360 + 4 = 7744."
+  },
+  {
+    "question": "What is 45 × 45?",
+    "options": {"A": "2025", "B": "2015", "C": "2035", "D": "2005"},
+    "correct_answer": "A",
+    "explanation": "Numbers ending in 5: 4×5=20, append 25 → 2025."
+  },
+  {
+    "question": "What is 65 × 65?",
+    "options": {"A": "4225", "B": "4125", "C": "4325", "D": "4215"},
+    "correct_answer": "A",
+    "explanation": "6×7=42, append 25 → 4225."
+  },
+  {
+    "question": "What is 999 × 998?",
+    "options": {"A": "997002", "B": "998002", "C": "996002", "D": "997102"},
+    "correct_answer": "A",
+    "explanation": "999×998 = (1000−1)(1000−2) = 1000000 −3000+2 = 997002."
+  },
+  {
+    "question": "What is 111 × 12?",
+    "options": {"A": "1332", "B": "1322", "C": "1342", "D": "1312"},
+    "correct_answer": "A",
+    "explanation": "111 × 12 = 111×10 + 111×2 = 1110+222 = 1332."
+  },
+  {
+    "question": "What is 4321 − 1234?",
+    "options": {"A": "3087", "B": "3097", "C": "3077", "D": "3107"},
+    "correct_answer": "A",
+    "explanation": "4321 − 1234 = 3087 by direct subtraction."
+  },
+  {
+    "question": "What is 15000 − 8642?",
+    "options": {"A": "6358", "B": "6458", "C": "6258", "D": "6368"},
+    "correct_answer": "A",
+    "explanation": "15000 − 8642 = 6358."
+  },
+  {
+    "question": "What is 245 ÷ 4, rounded to two decimal places?",
+    "options": {"A": "61.25", "B": "61.20", "C": "61.15", "D": "61.30"},
+    "correct_answer": "A",
+    "explanation": "245 ÷ 4 = 61.25 exactly."
+  },
+  {
+    "question": "What is 333 ÷ 7, rounded to two decimal places?",
+    "options": {"A": "47.57", "B": "47.56", "C": "47.58", "D": "47.55"},
+    "correct_answer": "A",
+    "explanation": "333 ÷ 7 = 47.5714…, rounds to 47.57."
+  },
+  {
+    "question": "What is 82 × 18?",
+    "options": {"A": "1476", "B": "1486", "C": "1466", "D": "1496"},
+    "correct_answer": "A",
+    "explanation": "82 × 18 = (80+2)(20−2) = 1600 −160 +40 −4 = 1476."
+  },
+  {
+    "question": "What is 29 × 31?",
+    "options": {"A": "899", "B": "889", "C": "909", "D": "919"},
+    "correct_answer": "A",
+    "explanation": "(30−1)(30+1) = 900 − 1 = 899."
+  },
+  {
+    "question": "What is 145 × 12?",
+    "options": {"A": "1740", "B": "1730", "C": "1750", "D": "1720"},
+    "correct_answer": "A",
+    "explanation": "145 × 12 = 145 × 10 + 145 × 2 = 1450 + 290 = 1740."
+  },
+  {
+    "question": "What is 6543 − 3210?",
+    "options": {"A": "3333", "B": "3323", "C": "3343", "D": "3313"},
+    "correct_answer": "A",
+    "explanation": "6543 − 3210 = 3333 by direct subtraction."
+  },
+  {
+    "question": "What is 900 ÷ 11, rounded to two decimal places?",
+    "options": {"A": "81.82", "B": "81.81", "C": "81.83", "D": "81.80"},
+    "correct_answer": "A",
+    "explanation": "900 ÷ 11 = 81.818…, rounds to 81.82."
+  },
+  {
+    "question": "What is 78 × 32?",
+    "options": {"A": "2496", "B": "2486", "C": "2506", "D": "2476"},
+    "correct_answer": "A",
+    "explanation": "78 × 32 = 78×30 + 78×2 = 2340+156 = 2496."
+  },
+  {
+    "question": "What is 54 × 46?",
+    "options": {"A": "2484", "B": "2474", "C": "2494", "D": "2464"},
+    "correct_answer": "A",
+    "explanation": "(50+4)(50−4) = 2500 − 16 = 2484."
+  },
+  {
+    "question": "What is 12345 − 6789?",
+    "options": {"A": "5556", "B": "5546", "C": "5566", "D": "5536"},
+    "correct_answer": "A",
+    "explanation": "12345 − 6789 = 5556 by direct subtraction."
+  },
+  {
+    "question": "What is 620 ÷ 9, rounded to two decimal places?",
+    "options": {"A": "68.89", "B": "68.88", "C": "68.90", "D": "68.87"},
+    "correct_answer": "A",
+    "explanation": "620 ÷ 9 = 68.888…, rounds to 68.89."
+  },
+  {
+    "question": "What is 205 × 19?",
+    "options": {"A": "3895", "B": "3885", "C": "3905", "D": "3875"},
+    "correct_answer": "A",
+    "explanation": "205 × 19 = 205 × 20 − 205 = 4100 − 205 = 3895."
+  },
+  {
+    "question": "What is 3000 − 1357?",
+    "options": {"A": "1643", "B": "1653", "C": "1633", "D": "1663"},
+    "correct_answer": "A",
+    "explanation": "3000 − 1357 = 1643 by direct subtraction."
+  }
+]

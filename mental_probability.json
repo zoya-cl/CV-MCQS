@@ -1,0 +1,284 @@
+[
+  {
+    "question": "A fair coin is tossed. You win ₹10 for heads and lose ₹6 for tails. What is the expected value?",
+    "options": {"A": "₹2", "B": "₹4", "C": "₹0", "D": "₹1"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.5×10 + 0.5×(−6) = 5 − 3 = ₹2."
+  },
+  {
+    "question": "A fair six-sided die is rolled. What is the expected value of the outcome?",
+    "options": {"A": "3.5", "B": "3", "C": "4", "D": "3.75"},
+    "correct_answer": "A",
+    "explanation": "EV = (1+2+3+4+5+6)/6 = 21/6 = 3.5."
+  },
+  {
+    "question": "A game pays ₹20 if a fair die shows a 6, and nothing otherwise. What is the fair price to play?",
+    "options": {"A": "₹3.33", "B": "₹4", "C": "₹3", "D": "₹5"},
+    "correct_answer": "A",
+    "explanation": "EV = (1/6)×20 + (5/6)×0 = 20/6 ≈ ₹3.33."
+  },
+  {
+    "question": "A game pays ₹60 if a fair die shows an even number, and nothing otherwise. What is the expected value?",
+    "options": {"A": "₹30", "B": "₹20", "C": "₹40", "D": "₹10"},
+    "correct_answer": "A",
+    "explanation": "P(even) = 3/6 = 0.5; EV = 0.5×60 = ₹30."
+  },
+  {
+    "question": "A fair coin is tossed twice. What is the probability of getting exactly one head?",
+    "options": {"A": "1/2", "B": "1/4", "C": "1/3", "D": "3/4"},
+    "correct_answer": "A",
+    "explanation": "Outcomes: HH, HT, TH, TT. Exactly one head: HT, TH → 2/4 = 1/2."
+  },
+  {
+    "question": "Two fair dice are rolled. What is the probability that the sum is 7?",
+    "options": {"A": "1/6", "B": "1/12", "C": "1/9", "D": "1/8"},
+    "correct_answer": "A",
+    "explanation": "6 favorable outcomes (1-6,2-5,3-4,4-3,5-2,6-1) out of 36 = 6/36 = 1/6."
+  },
+  {
+    "question": "A lottery ticket costs ₹5. It pays ₹100 with probability 1/25 and nothing otherwise. What is the expected profit?",
+    "options": {"A": "−₹1", "B": "₹0", "C": "₹1", "D": "−₹2"},
+    "correct_answer": "A",
+    "explanation": "EV of payout = (1/25)×100 = ₹4; profit = 4 − 5 = −₹1."
+  },
+  {
+    "question": "A game costs ₹10 to play. It pays ₹50 with probability 0.2 and ₹0 otherwise. Is this game fair, favorable, or unfavorable to the player?",
+    "options": {"A": "Fair", "B": "Favorable", "C": "Unfavorable", "D": "Cannot determine"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.2×50 = 10, equal to the cost, so the game is exactly fair."
+  },
+  {
+    "question": "A bag has 3 red and 2 blue balls. One ball is drawn at random. You win ₹15 for red, lose ₹10 for blue. What is the expected value?",
+    "options": {"A": "₹5", "B": "₹3", "C": "₹7", "D": "₹1"},
+    "correct_answer": "A",
+    "explanation": "EV = (3/5)×15 + (2/5)×(−10) = 9 − 4 = ₹5."
+  },
+  {
+    "question": "A fair die is rolled. You win ₹12 if the number is greater than 4, otherwise you lose ₹3. What is the expected value?",
+    "options": {"A": "₹2", "B": "₹3", "C": "₹1", "D": "₹4"},
+    "correct_answer": "A",
+    "explanation": "P(>4)=2/6=1/3; EV = (1/3)×12 + (2/3)×(−3) = 4 − 2 = ₹2."
+  },
+  {
+    "question": "What is the fair price to enter a game where a fair coin is tossed and you win ₹40 for heads, ₹0 for tails?",
+    "options": {"A": "₹20", "B": "₹40", "C": "₹10", "D": "₹30"},
+    "correct_answer": "A",
+    "explanation": "Fair price = EV = 0.5×40 + 0.5×0 = ₹20."
+  },
+  {
+    "question": "A biased coin has P(heads) = 0.7. You win ₹10 for heads and lose ₹10 for tails. What is the expected value?",
+    "options": {"A": "₹4", "B": "₹3", "C": "₹5", "D": "₹2"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.7×10 + 0.3×(−10) = 7 − 3 = ₹4."
+  },
+  {
+    "question": "A spinner has 4 equal sectors numbered 1 to 4. You win ₹(number×5). What is the expected winnings?",
+    "options": {"A": "₹12.5", "B": "₹10", "C": "₹15", "D": "₹11"},
+    "correct_answer": "A",
+    "explanation": "EV = 5×(1+2+3+4)/4 = 5×2.5 = ₹12.5."
+  },
+  {
+    "question": "Two fair coins are tossed. What is the probability of getting at least one head?",
+    "options": {"A": "3/4", "B": "1/2", "C": "1/4", "D": "2/3"},
+    "correct_answer": "A",
+    "explanation": "P(no heads) = 1/4; P(at least one head) = 1 − 1/4 = 3/4."
+  },
+  {
+    "question": "A die is rolled twice. What is the probability that both rolls show a 6?",
+    "options": {"A": "1/36", "B": "1/12", "C": "1/6", "D": "1/18"},
+    "correct_answer": "A",
+    "explanation": "P(6 on each roll) = 1/6 × 1/6 = 1/36."
+  },
+  {
+    "question": "A game pays ₹100 with probability 0.1, ₹20 with probability 0.3, and ₹0 otherwise. What is the expected value?",
+    "options": {"A": "₹16", "B": "₹14", "C": "₹18", "D": "₹12"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.1×100 + 0.3×20 + 0.6×0 = 10 + 6 = ₹16."
+  },
+  {
+    "question": "A ticket costs ₹25. It pays ₹500 with probability 1/50. What is the expected profit from buying the ticket?",
+    "options": {"A": "−₹15", "B": "₹0", "C": "₹10", "D": "−₹10"},
+    "correct_answer": "A",
+    "explanation": "EV of payout = 500/50 = ₹10; profit = 10 − 25 = −₹15."
+  },
+  {
+    "question": "A card is drawn from a standard 52-card deck. What is the probability it is a face card (J, Q, K)?",
+    "options": {"A": "3/13", "B": "1/13", "C": "1/4", "D": "4/13"},
+    "correct_answer": "A",
+    "explanation": "There are 12 face cards out of 52, i.e. 12/52 = 3/13."
+  },
+  {
+    "question": "A card is drawn from a standard 52-card deck. What is the probability it is a red card or a king?",
+    "options": {"A": "7/13", "B": "1/2", "C": "6/13", "D": "8/13"},
+    "correct_answer": "A",
+    "explanation": "P(red)=26/52, P(king)=4/52, P(red king)=2/52; P(red or king)=(26+4−2)/52=28/52=7/13."
+  },
+  {
+    "question": "A game gives ₹30 if a fair die shows a number less than 3, and costs the player ₹15 otherwise (i.e., loses ₹15). What is the expected value?",
+    "options": {"A": "−₹5", "B": "₹5", "C": "₹0", "D": "−₹10"},
+    "correct_answer": "C",
+    "explanation": "P(<3)=2/6=1/3; EV = (1/3)×30 + (2/3)×(−15) = 10 − 10 = ₹0."
+  },
+  {
+    "question": "In a raffle, 200 tickets are sold, one wins ₹1000. What is the fair price of a single ticket?",
+    "options": {"A": "₹5", "B": "₹4", "C": "₹6", "D": "₹10"},
+    "correct_answer": "A",
+    "explanation": "Fair price = EV = 1000/200 = ₹5."
+  },
+  {
+    "question": "A coin is tossed 3 times. What is the probability of getting exactly 2 heads?",
+    "options": {"A": "3/8", "B": "1/2", "C": "1/4", "D": "1/8"},
+    "correct_answer": "A",
+    "explanation": "There are 3 ways (HHT, HTH, THH) out of 8 total outcomes: 3/8."
+  },
+  {
+    "question": "A die is rolled. You win ₹6 for an odd number and lose ₹4 for an even number. What is the expected value?",
+    "options": {"A": "₹1", "B": "₹2", "C": "₹0", "D": "−₹1"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.5×6 + 0.5×(−4) = 3 − 2 = ₹1."
+  },
+  {
+    "question": "A game costs ₹8 to play. A fair coin is tossed twice; you win ₹20 if both are heads, else nothing. Is the game fair, favorable, or unfavorable to the player?",
+    "options": {"A": "Unfavorable", "B": "Fair", "C": "Favorable", "D": "Cannot determine"},
+    "correct_answer": "A",
+    "explanation": "EV = (1/4)×20 = ₹5, less than the ₹8 cost, so the game is unfavorable to the player."
+  },
+  {
+    "question": "A box has 4 white and 6 black balls. You draw one ball; win ₹10 for white, lose ₹5 for black. What is the expected value?",
+    "options": {"A": "₹1", "B": "₹2", "C": "₹0", "D": "−₹1"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.4×10 + 0.6×(−5) = 4 − 3 = ₹1."
+  },
+  {
+    "question": "A fair die is rolled. Given that the result is even, what is the probability that it is 6?",
+    "options": {"A": "1/3", "B": "1/6", "C": "1/2", "D": "1/4"},
+    "correct_answer": "A",
+    "explanation": "Even outcomes are {2,4,6}, so conditional probability of 6 given even = 1/3."
+  },
+  {
+    "question": "Two dice are rolled. Given that the sum is 8, what is the probability that one die shows a 5?",
+    "options": {"A": "2/5", "B": "1/5", "C": "1/6", "D": "1/3"},
+    "correct_answer": "A",
+    "explanation": "Sum=8 outcomes: (2,6),(3,5),(4,4),(5,3),(6,2) — 5 total; those with a 5: (3,5),(5,3) → 2/5."
+  },
+  {
+    "question": "A card is drawn from a deck. Given that it is a face card, what is the probability it is a king?",
+    "options": {"A": "1/3", "B": "1/4", "C": "1/13", "D": "1/12"},
+    "correct_answer": "A",
+    "explanation": "There are 12 face cards, 4 of which are kings: 4/12 = 1/3."
+  },
+  {
+    "question": "A family has two children. Given that at least one is a boy, what is the probability both are boys?",
+    "options": {"A": "1/3", "B": "1/2", "C": "1/4", "D": "2/3"},
+    "correct_answer": "A",
+    "explanation": "Sample space {BB,BG,GB,GG}; given at least one boy removes GG, leaving {BB,BG,GB}; P(BB)=1/3."
+  },
+  {
+    "question": "A game pays ₹50 with probability 0.4, and you lose ₹30 with probability 0.6. What is the expected value?",
+    "options": {"A": "₹2", "B": "₹5", "C": "₹0", "D": "−₹2"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.4×50 + 0.6×(−30) = 20 − 18 = ₹2."
+  },
+  {
+    "question": "A fair die is rolled. What is the fair price of a game that pays ₹(number rolled)×10?",
+    "options": {"A": "₹35", "B": "₹30", "C": "₹40", "D": "₹25"},
+    "correct_answer": "A",
+    "explanation": "EV = 10×3.5 = ₹35."
+  },
+  {
+    "question": "A weighted coin has P(heads)=0.6. You win ₹15 for heads, lose ₹20 for tails. What is the expected value?",
+    "options": {"A": "₹1", "B": "₹2", "C": "₹0", "D": "−₹1"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.6×15 + 0.4×(−20) = 9 − 8 = ₹1."
+  },
+  {
+    "question": "In a game, you roll a die: pay ₹5 to play, win ₹18 if you roll a 1 or 2, else nothing. What is the expected profit?",
+    "options": {"A": "₹1", "B": "₹0", "C": "−₹1", "D": "₹2"},
+    "correct_answer": "A",
+    "explanation": "P(1 or 2)=2/6=1/3; EV of payout=(1/3)×18=6; profit=6−5=₹1."
+  },
+  {
+    "question": "A fair die is rolled twice. What is the probability that the sum is at least 10?",
+    "options": {"A": "1/6", "B": "1/12", "C": "1/9", "D": "1/4"},
+    "correct_answer": "A",
+    "explanation": "Sum≥10 outcomes: (4,6),(6,4),(5,5),(5,6),(6,5),(6,6) = 6 out of 36 = 1/6."
+  },
+  {
+    "question": "A bag has 5 tickets numbered 1 to 5. One is drawn; you win ₹(number²). What is the expected winning?",
+    "options": {"A": "₹11", "B": "₹10", "C": "₹12", "D": "₹9"},
+    "correct_answer": "A",
+    "explanation": "EV = (1+4+9+16+25)/5 = 55/5 = ₹11."
+  },
+  {
+    "question": "A biased die has P(6)=0.5 and all other faces equally likely (0.1 each). You win ₹100 for a 6, else nothing. What is the expected value?",
+    "options": {"A": "₹50", "B": "₹40", "C": "₹60", "D": "₹45"},
+    "correct_answer": "A",
+    "explanation": "EV = 0.5×100 = ₹50."
+  },
+  {
+    "question": "A coin is tossed until the first head appears, with a maximum of 2 tosses. If heads on toss 1, win ₹10; if heads on toss 2 (after one tail), win ₹20; if no head in 2 tosses, win ₹0. What is the expected value?",
+    "options": {"A": "₹10", "B": "₹15", "C": "₹5", "D": "₹12.5"},
+    "correct_answer": "A",
+    "explanation": "P(H1)=0.5→10; P(TH)=0.25→20; P(TT)=0.25→0; EV=0.5×10+0.25×20+0.25×0=5+5=₹10."
+  },
+  {
+    "question": "A game: roll a die, win ₹(6 − number) rupees. What is the expected winning?",
+    "options": {"A": "₹2.5", "B": "₹3", "C": "₹2", "D": "₹3.5"},
+    "correct_answer": "A",
+    "explanation": "EV = 6 − 3.5 = ₹2.5 (since expected die roll is 3.5)."
+  },
+  {
+    "question": "A fair coin is tossed 4 times. What is the probability of getting exactly 3 heads?",
+    "options": {"A": "1/4", "B": "3/8", "C": "1/2", "D": "1/8"},
+    "correct_answer": "A",
+    "explanation": "C(4,3)/2^4 = 4/16 = 1/4."
+  },
+  {
+    "question": "A game costs ₹12. A die is rolled; you win ₹4×number. Should a rational player play this game?",
+    "options": {"A": "Yes, EV > cost", "B": "No, EV < cost", "C": "Indifferent, EV = cost", "D": "Cannot determine"},
+    "correct_answer": "A",
+    "explanation": "EV = 4 × 3.5 = ₹14. Since the expected value (₹14) is greater than the cost to play (₹12), a rational player should play."
+  },
+  {
+    "question": "Urn A has 2 red, 3 blue balls. One ball is drawn. What is the probability it is blue?",
+    "options": {"A": "3/5", "B": "2/5", "C": "1/2", "D": "1/5"},
+    "correct_answer": "A",
+    "explanation": "P(blue) = 3/5."
+  },
+  {
+    "question": "Two fair dice are rolled. What is the probability that both show the same number?",
+    "options": {"A": "1/6", "B": "1/12", "C": "1/36", "D": "1/3"},
+    "correct_answer": "A",
+    "explanation": "There are 6 doubles out of 36 outcomes: 6/36 = 1/6."
+  },
+  {
+    "question": "A game pays ₹8 for heads and ₹2 for tails on a fair coin toss, costing ₹5 to play. What is the expected profit?",
+    "options": {"A": "₹0", "B": "₹1", "C": "−₹1", "D": "₹2"},
+    "correct_answer": "A",
+    "explanation": "EV of payout = 0.5×8+0.5×2 = 5; profit = 5−5 = ₹0 (fair game)."
+  },
+  {
+    "question": "A spinner has 3 equal sectors: win ₹30, win ₹0, or lose ₹15. What is the expected value?",
+    "options": {"A": "₹5", "B": "₹10", "C": "₹0", "D": "−₹5"},
+    "correct_answer": "A",
+    "explanation": "EV = (30+0−15)/3 = 15/3 = ₹5."
+  },
+  {
+    "question": "A die is rolled. You win ₹9 if it's a multiple of 3, otherwise lose ₹3. What is the expected value?",
+    "options": {"A": "₹1", "B": "₹2", "C": "₹0", "D": "−₹1"},
+    "correct_answer": "A",
+    "explanation": "P(multiple of 3)=2/6=1/3; EV=(1/3)×9+(2/3)×(−3)=3−2=₹1."
+  },
+  {
+    "question": "A game requires paying ₹20; a fair die is rolled and you receive ₹4×number. What is the expected profit?",
+    "options": {"A": "−₹6", "B": "₹5", "C": "−₹5", "D": "₹2"},
+    "correct_answer": "A",
+    "explanation": "EV of payout = 4 × 3.5 = ₹14; expected profit = ₹14 − ₹20 = −₹6."
+  },
+  {
+    "question": "A fair coin is tossed 3 times. What is the probability of getting at least 2 heads?",
+    "options": {"A": "1/2", "B": "3/8", "C": "5/8", "D": "1/4"},
+    "correct_answer": "A",
+    "explanation": "P(exactly 2)=3/8, P(exactly 3)=1/8; total = 4/8 = 1/2."
+  }
+]
