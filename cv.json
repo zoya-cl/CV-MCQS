@@ -628,5 +628,137 @@
     },
     "correct_answer": "C",
     "explanation": "Occlusion happens when the line of sight between the camera sensor and the target object is blocked or obstructed by another object in the environment."
- }
+ },
+  {
+    "question": "During the backpropagation phase in a CNN, what mathematical rule is primarily used to calculate the gradient of the loss function with respect to the weights of earlier layers?",
+    "options": {
+      "A": "The Product Rule",
+      "B": "The Chain Rule",
+      "C": "The Quotient Rule",
+      "D": "The Power Rule"
+    },
+    "correct_answer": "B",
+    "explanation": "Backpropagation relies fundamentally on the Chain Rule of calculus to propagate the error gradient backward from the output layer through intermediate activation functions and weights down to the initial layers."
+  },
+  {
+    "question": "What is the primary purpose of computing the gradient during the backpropagation process in a deep neural network?",
+    "options": {
+      "A": "To dynamically adjust the dropout rate during evaluation",
+      "B": "To compress the feature map dimensions without data loss",
+      "C": "To determine the direction and magnitude to update weights to minimize the loss function",
+      "D": "To change the activation threshold of the pooling layers"
+    },
+    "correct_answer": "C",
+    "explanation": "Gradients indicate how much the loss value changes with respect to adjustments in each weight. Optimization algorithms (like SGD or Adam) use these gradients to update parameters in the direction that minimizes overall error."
+  },
+  {
+    "question": "Which of the following problems can severely stall or halt the backpropagation process in deep networks using un-bounded activation functions like Sigmoid?",
+    "options": {
+      "A": "Exploding feature maps",
+      "B": "Vanishing Gradients",
+      "C": "Spatial Over-pooling",
+      "D": "Stride saturation"
+    },
+    "correct_answer": "B",
+    "explanation": "Sigmoid and Tanh functions have tiny gradients for highly positive or negative inputs. When backpropagating through many layers, multiplying these small fractions repeatedly causes the gradient to vanish, preventing early layers from updating."
+  },
+  {
+    "question": "In the context of backpropagation, how do skip connections (like those in ResNet) help mitigate training issues?",
+    "options": {
+      "A": "They block the loss value from flowing to early layers entirely.",
+      "B": "They allow gradients to flow directly backward through the highway connection without being diminished by intermediate layer weights.",
+      "C": "They force the network to use average pooling instead of max pooling.",
+      "D": "They eliminate the need to compute partial derivatives altogether."
+    },
+    "correct_answer": "B",
+    "explanation": "Skip connections allow the error gradient to propagate backward directly to earlier layers with minimal attenuation, successfully countering the vanishing gradient problem in deep networks."
+  },
+  {
+    "question": "What is the simplest technique for motion detection that subtracts the pixel values of the previous frame from the current frame?",
+    "options": {
+      "A": "Gaussian Mixture Model (GMM)",
+      "B": "Temporal Frame Differencing",
+      "C": "Optical Flow Homography",
+      "D": "Morphological Top-Hat Segmentation"
+    },
+    "correct_answer": "B",
+    "explanation": "Temporal Frame Differencing calculates the absolute difference between pixel values of consecutive video frames. Pixels with variations higher than a preset threshold are flagged as moving regions."
+  },
+  {
+    "question": "Why is static background subtraction highly susceptible to errors in outdoor surveillance video processing applications?",
+    "options": {
+      "A": "Because moving objects always travel faster than the video frame rate.",
+      "B": "Because it fails to account for dynamic scene variations like swaying trees or illumination shifts.",
+      "C": "Because static backgrounds require the camera to be constantly moving.",
+      "D": "Because it doubles the resolution of the processed output data maps."
+    },
+    "correct_answer": "B",
+    "explanation": "Simple static background subtraction assumes the background never changes. Real-world changes like cloud shadows or wind moving tree branches throw off static models, creating false positives."
+  },
+  {
+    "question": "Which advanced background subtraction algorithm models each pixel's color distribution over time as a collection of normal distributions to adapt to dynamic scenes?",
+    "options": {
+      "A": " Otsu Threshold Adaptive Filter",
+      "B": "Sobel Edge Accumulator Matrix",
+      "C": "Gaussian Mixture Model (GMM)",
+      "D": "Lucas-Kanade Pixel Tracker"
+    },
+    "correct_answer": "C",
+    "explanation": "GMM approaches evaluate each pixel using multiple Gaussian distributions, allowing the algorithm to dynamically learn backgrounds with multi-modal patterns like shimmering water or waving foliage."
+  },
+  {
+    "question": "When designing a real-time motion tracking system, what is the key output generated by a Background Subtraction step?",
+    "options": {
+      "A": "A dense optical flow vector field detailing structural coordinates",
+      "B": "A binary foreground mask where moving elements are isolated from the background scene",
+      "C": "An updated set of camera intrinsic matrix coefficients",
+      "D": "A set of regression values defining anchor box scales"
+    },
+    "correct_answer": "B",
+    "explanation": "Background subtraction outputs a binary mask separating foreground (typically white, representing moving objects) from the static background (typically black)."
+  },
+  {
+    "question": "In Deep Learning, what is the core rationale behind utilizing Transfer Learning?",
+    "options": {
+      "A": "To train a model from scratch without using any pre-existing dataset annotations",
+      "B": "To leverage generic feature representations (like edges and shapes) learned by a model pre-trained on a massive dataset to speed up training on a smaller dataset",
+      "C": "To transfer weights from a classification network directly into a text-to-speech model without modifying layers",
+      "D": "To balance memory allocation limits across parallel processing graphic cards"
+    },
+    "correct_answer": "B",
+    "explanation": "Early layers of a CNN learn fundamental structures applicable across most image domains. Transfer learning reuses these features, saving computational resources and preventing overfitting on small custom datasets."
+  },
+  {
+    "question": "When applying Transfer Learning to a target problem with a tiny dataset that is highly similar to the source dataset, which strategy is recommended?",
+    "options": {
+      "A": "Train the entire network completely from scratch with a large learning rate.",
+      "B": "Freeze the pre-trained feature extraction backbone and only train the final classification head.",
+      "C": "Randomize the weights of all early convolutional filters while keeping the final dense layer fixed.",
+      "D": "Remove all convolutional layers and keep only the pooling filters."
+    },
+    "correct_answer": "B",
+    "explanation": "If the data is similar and small, features from the source network are highly relevant. Freezing the backbone avoids overfitting its parameters, while training only the classification head adapts it to the new classes."
+  },
+  {
+    "question": "What does the term 'Fine-Tuning' specifically mean within a transfer learning workflow?",
+    "options": {
+      "A": "Manually resizing input images by fractional percentage margins",
+      "B": "Unfreezing some or all of the top layers of a pre-trained backbone and training them with a very low learning rate alongside the new head",
+      "C": "Adjusting the contrast levels of a video stream step-by-step",
+      "D": "Replacing all non-linear activation functions with linear operations"
+    },
+    "correct_answer": "B",
+    "explanation": "Fine-tuning takes a pre-trained model and continues training its higher-level layers with a small learning rate. This adapts specialized features to a new task while keeping baseline features intact."
+  },
+  {
+    "question": "Why do we typically use a very low learning rate when fine-tuning a pre-trained network?",
+    "options": {
+      "A": "To increase the computational footprint of the backpropagation phase",
+      "B": "To prevent destroying or distorting the highly useful stable weights already learned by the pre-trained model",
+      "C": "To force the pooling layers to skip noisy pixel zones",
+      "D": "To ensure the classification head remains completely unaltered during optimization"
+    },
+    "correct_answer": "B",
+    "explanation": "A high learning rate would cause large, aggressive weight updates that wipe out the complex patterns the model already learned. A small learning rate makes gentle adjustments instead."
+  }
 ]
