@@ -419,6 +419,215 @@
     ],
     "correct_answer": "Negative Transfer.",
     "explanation": "When an individual encounters an environment that looks identical to a familiar task but now demands a completely contradictory response or motor action, their established reflexes create friction, causing a negative transfer (habit interference)."
+  },
+  {
+    "question": "In camera geometry, what do the extrinsic parameters describe?",
+    "options": {
+      "A": "The focal length and principal point of the lens",
+      "B": "The lens distortion coefficients",
+      "C": "The position and orientation of the camera relative to a world coordinate system",
+      "D": "The physical dimensions of the image sensor pixels"
+    },
+    "correct_answer": "C",
+    "explanation": "Extrinsic parameters consist of a rotation matrix and translation vector that transform coordinates from the 3D world frame to the 3D camera coordinate system."
+  },
+  {
+    "question": "Which spatial filter is most effective at removing salt-and-pepper noise while preserving sharp object edges?",
+    "options": {
+      "A": "Mean Filter",
+      "B": "Gaussian Filter",
+      "C": "Median Filter",
+      "D": "Box Filter"
+    },
+    "correct_answer": "C",
+    "explanation": "The Median filter replaces each pixel with the median value of its neighborhood, making it highly robust against extreme outlier noise like salt-and-pepper while maintaining edge boundaries."
+  },
+  {
+    "question": "How does a Bilateral Filter differ from a standard Gaussian Filter?",
+    "options": {
+      "A": "It only filters the boundaries of an image.",
+      "B": "It considers both spatial distance and pixel intensity differences to preserve edges.",
+      "C": "It runs significantly faster by skipping alternate pixels.",
+      "D": "It changes the color space of the image before smoothing."
+    },
+    "correct_answer": "B",
+    "explanation": "A bilateral filter uses a second Gaussian weight based on radiometric (intensity) differences, ensuring pixels with vastly different intensities are not blurred together, which preserves sharp edges."
+  },
+  {
+    "question": "What is the primary purpose of Non-Maximum Suppression (NMS) in the Canny Edge Detection pipeline?",
+    "options": {
+      "A": "To reduce high-frequency background noise",
+      "B": "To thin out wide gradient responses into single-pixel wide edges",
+      "C": "To connect broken edge segments using double thresholding",
+      "D": "To compute the spatial orientation of the image gradient"
+    },
+    "correct_answer": "B",
+    "explanation": "Non-Maximum Suppression suppresses all gradient magnitudes that are not local maxima along the direction of the gradient, resulting in thin, sharp edge skeletons."
+  },
+  {
+    "question": "Which algorithm uses a parametric accumulator voting space to detect straight lines or geometric shapes in an edge map?",
+    "options": {
+      "A": "Sobel Operator",
+      "B": "Hough Transform",
+      "C": "Harris Detector",
+      "D": "Watershed Algorithm"
+    },
+    "correct_answer": "B",
+    "explanation": "The Hough Transform maps edge pixels into a parametric space (like rho-theta for lines) where intersecting votes indicate the presence of a geometric shape."
+  },
+  {
+    "question": "How does the SIFT (Scale-Invariant Feature Transform) algorithm achieve scale invariance?",
+    "options": {
+      "A": "By extracting features using variable-sized Sobel kernels sequentially",
+      "B": "By evaluating local extrema across a continuous scale-space built via Difference of Gaussians (DoG)",
+      "C": "By altering the physical exposure time during camera calibration",
+      "D": "By resizing all input images to a single uniform square resolution"
+    },
+    "correct_answer": "B",
+    "explanation": "SIFT builds a Gaussian scale-space pyramid and uses Difference of Gaussians to identify stable keypoints that persist across different scales and resolutions."
+  },
+  {
+    "question": "Which feature descriptor relies entirely on binary intensity tests to achieve exceptionally high computing speed for real-time applications?",
+    "options": {
+      "A": "SIFT",
+      "B": "SURF",
+      "C": "ORB / BRIEF",
+      "D": "Harris Corner"
+    },
+    "correct_answer": "C",
+    "explanation": "BRIEF (and ORB, which builds upon it) utilizes simple binary intensity comparisons between pairs of pixels in a local patch, creating a highly efficient bit-string descriptor."
+  },
+  {
+    "question": "Otsu's thresholding method automatically calculates an optimal global threshold by maximizing which metric?",
+    "options": {
+      "A": "The total entropy of the binary image",
+      "B": "The inter-class variance between foreground and background pixels",
+      "C": "The sum of structural gradients along the boundaries",
+      "D": "The mean intensity value of the entire image"
+    },
+    "correct_answer": "B",
+    "explanation": "Otsu's method searches for a threshold that maximizes the between-class variance, which mathematically minimizes the spread (intra-class variance) within the foreground and background populations."
+  },
+  {
+    "question": "In mathematical morphology, which operation is defined as an erosion followed by a dilation using the same structuring element?",
+    "options": {
+      "A": "Closing",
+      "B": "Top-Hat",
+      "C": "Opening",
+      "D": "Morphological Gradient"
+    },
+    "correct_answer": "C",
+    "explanation": "Opening consists of an erosion followed by a dilation. It is primarily used to eliminate small bright noise elements and isolate individual structures without modifying overall object size."
+  },
+  {
+    "question": "What is the effect of the 'Closing' morphological operation on an image?",
+    "options": {
+      "A": "It removes small bright noise spots on dark backgrounds.",
+      "B": "It isolates connected components from each other.",
+      "C": "It fills small dark holes, cracks, and gaps within foreground objects.",
+      "D": "It extracts only the thin boundary outline of foreground targets."
+    },
+    "correct_answer": "C",
+    "explanation": "Closing is a dilation followed by an erosion. It expands objects to bridge gaps and fill narrow holes, then restores the outer boundaries to their original scale."
+  },
+  {
+    "question": "Given an input feature map of 32x32, a filter size of 5x5, padding of 2, and a stride of 1, what is the output spatial size?",
+    "options": {
+      "A": "28x28",
+      "B": "30x30",
+      "C": "32x32",
+      "D": "34x34"
+    },
+    "correct_answer": "C",
+    "explanation": "Using the formula ((W - F + 2P) / S) + 1: ((32 - 5 + 4) / 1) + 1 = 31 + 1 = 32. This configuration is known as 'Same' padding."
+  },
+  {
+    "question": "What is the primary function of Pooling layers (e.g., Max Pooling) in a CNN?",
+    "options": {
+      "A": "To introduce non-linear activation bounds",
+      "B": "To reduce spatial dimensions, lower computational costs, and achieve translation invariance",
+      "C": "To normalize the channels across a given batch",
+      "D": "To adjust the weighting coefficients during backpropagation"
+    },
+    "correct_answer": "B",
+    "explanation": "Pooling layers downsample the feature maps progressively, reducing parameters and computation while making the network robust to small translations of the input features."
+  },
+  {
+    "question": "What is the core difference between Semantic Segmentation and Instance Segmentation?",
+    "options": {
+      "A": "Semantic segmentation outputs bounding boxes, while instance segmentation classifies pixels.",
+      "B": "Semantic segmentation groups all objects of the same class together, while instance segmentation distinguishes individual unique objects within a class.",
+      "C": "Instance segmentation only works on video sequences, whereas semantic segmentation is for static frames.",
+      "D": "Semantic segmentation requires a depth sensor, whereas instance segmentation does not."
+    },
+    "correct_answer": "B",
+    "explanation": "Semantic segmentation treats multiple objects of the same class as a uniform entity (e.g., all 'cars' are colored the same), whereas instance segmentation identifies and tracks each individual car separately."
+  },
+  {
+    "question": "What is the primary purpose of skip connections in architectures like U-Net?",
+    "options": {
+      "A": "To bypass the loss function during model evaluation",
+      "B": "To pass fine, high-resolution spatial details directly from encoder layers to corresponding decoder layers",
+      "C": "To drop out random neurons to prevent overfitting",
+      "D": "To change the dimensions of channels dynamically"
+    },
+    "correct_answer": "B",
+    "explanation": "As information goes deep into the encoder, precise spatial location details are lost. Skip connections pass earlier high-resolution feature maps across to the decoder to enable crisp, accurate boundary generation."
+  },
+  {
+    "question": "In object detection, what does an Intersection over Union (IoU) value measure?",
+    "options": {
+      "A": "The classification confidence score of a network branch",
+      "B": "The degree of overlap between a predicted bounding box and the ground truth box",
+      "C": "The mathematical distance between camera frame origins",
+      "D": "The frame rate efficiency of an anchor-free detector"
+    },
+    "correct_answer": "B",
+    "explanation": "IoU divides the area of overlap between the predicted box and the ground truth box by the area of their combined union, providing a metric ranging from 0 to 1 to measure localization accuracy."
+  },
+  {
+    "question": "Which of the following describes a single-stage object detector known for optimizing inference speed?",
+    "options": {
+      "A": "Faster R-CNN",
+      "B": "Mask R-CNN",
+      "C": "YOLO (You Only Look Once)",
+      "D": "U-Net"
+    },
+    "correct_answer": "C",
+    "explanation": "YOLO re-frames object detection as a single regression problem, passing the image through the network just once to predict bounding boxes and class probabilities simultaneously, making it incredibly fast."
+  },
+  {
+    "question": "What fundamental assumption forms the basis for differential optical flow methods like Lucas-Kanade?",
+    "options": {
+      "A": "The camera intrinsic parameters must change dynamically.",
+      "B": "Brightness Constancy: The intensity of a moving pixel remains constant between consecutive frames.",
+      "C": "Objects must strictly move away from the sensor plane along the Z-axis.",
+      "D": "The scene must be composed entirely of static, rigid surfaces."
+    },
+    "correct_answer": "B",
+    "explanation": "The fundamental optical flow constraint equation assumes that the intensity of a tracked point does not alter significantly over small temporal increments ($I(x,y,t) = I(x+dx, y+dy, t+dt)$)."
+  },
+  {
+    "question": "What role does the Kalman Filter play in real-time object tracking frameworks?",
+    "options": {
+      "A": "It generates pixel masks for instance segmentation.",
+      "B": "It estimates and predicts the future state (position and velocity) of an object while filtering out sensor measurement noise.",
+      "C": "It acts as an alternative activation function to ReLU.",
+      "D": "It matches keypoint descriptors using binary string tests."
+    },
+    "correct_answer": "B",
+    "explanation": "A Kalman Filter uses a series of measurements observed over time containing noise and predicts the future state of linear systems, making it highly valuable for smoothing and estimating object paths in tracking tracking algorithms like SORT."
+  },
+  {
+    "question": "Which real-world vision challenge describes a situation where an object is partially or fully hidden behind another structure in the scene?",
+    "options": {
+      "A": "Scale Variation",
+      "B": "Illumination Variation",
+      "C": "Occlusion",
+      "D": "Rotation Invariance"
+    },
+    "correct_answer": "C",
+    "explanation": "Occlusion happens when the line of sight between the camera sensor and the target object is blocked or obstructed by another object in the environment."
   }
 
 
